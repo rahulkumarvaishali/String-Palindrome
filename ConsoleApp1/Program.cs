@@ -15,7 +15,7 @@ namespace ConsoleApp1
             int Len = str.Length-1; string str1="";
             for (int i = Len; i >= 0; i--)
             {
-                str1=str1 + str[i];
+                str1 += str[i];
             }
             if (str == str1)
             
